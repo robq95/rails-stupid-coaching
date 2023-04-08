@@ -1,2 +1,10 @@
-<p><%= @question %></p>
-<p><%= @answer %></p>
+<h1 class="container">Stupid Coaching</h1>
+
+<h2 style="font-weight: normal" class="container">
+  <i><%= @question %></i>
+</h2>
+<h3 style="font-weight: normal" class="container">
+  <i><%= @answer %></i>
+</h3>
+
+<%= link_to "Ask a new question", ask_path%>
